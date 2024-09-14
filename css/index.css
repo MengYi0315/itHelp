@@ -1,0 +1,366 @@
+body {
+    margin: 0 0;
+    background-color: #f2f2f2;
+    font-family: "Lato", "PingFang TC", "Helvetica Neue", Helvetica, "微軟正黑體", "新細明體", Arial, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.header{
+    height: 50px;
+    background-color: #00a0e9;
+    padding: 0 190px;
+    margin: 0 0 30px;
+
+    justify-content: space-between;
+
+    color: #fff;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav li {
+    padding: 0 12px;
+}
+
+.rightHeaderDiv {
+    justify-content: center;
+    align-items: center;
+}
+
+.search-logo {
+    font-size: 20px;
+    margin: 0 14px;
+}
+
+.loginAndRegister {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main {
+    width: 1140px;
+
+    justify-content: space-between;
+}
+
+.leftMainDiv {
+    width: 810px;
+}
+
+.rightMainDiv {
+    width: 300px;
+}
+
+.announcementDiv {
+    align-items: center;
+    
+    margin-bottom: 10px;
+}
+
+.announcement {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00a0e9;
+    padding: 2px 10px;
+    margin-right: 8px;
+}
+
+.announcementText {
+    color: #303233;
+    font-size: 16px;
+}
+
+.TechnicalQA {
+    width: 100%;
+    height: 42.8px;
+    border-bottom: #00a0e9 2.4px solid;
+    
+    justify-content: space-between;
+}
+
+.QATitle {
+    color: #333;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4px 0px 3px 2px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.rss {
+    height: 22px;
+    color: #f3763a;
+    font-size: 14px;
+    padding: 0 4px;
+    margin: 0 2px 3px;
+    border: 0.8px solid #f3763a;
+    border-radius: 16px;
+    line-height: 22px;
+    
+
+}
+
+.QANav {
+    justify-content: flex-end;
+}
+
+.tab {
+    color: #587280;
+    font-size: 18px;
+    width: 110px;
+    height: 28.8px;
+    padding: 5px 0;
+    background-color: #c6d3d9;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    letter-spacing: 1px;
+    margin-left: 4px;
+}
+
+.focusTab {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 110px;
+    height: 28.8px;
+    padding: 5px 0;
+    background-color: #00a0e9;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    border-bottom: #00a0e9 4px solid;
+    letter-spacing: 1px;
+    margin-left: 4px;
+
+}
+
+.QAList {
+    width: 100%;
+    flex-direction: column;
+}
+
+.QAItem {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 14px 18px;
+}
+
+.col {
+    width: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.like {
+    color: #999999;
+}
+
+.answer {
+    color: #999999;
+    margin-left: 12px;
+}
+
+.scan {
+    color: #303233;
+}
+
+.number {
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.tag {
+    width: auto;
+    color: #6B8793;
+    background-color: #E8EFF2;
+    padding: 2px 8px;
+    margin: 0 4px 6px 0;
+    border-radius: 4px;
+}
+
+.dateAndMemberDiv {
+    font-size: 14px;
+    color: #303233;
+}
+
+.name {
+    color: #00a0e9;
+}
+
+.sidebox {
+    width: 100%;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sideboxHeader {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 40px 2px 14px;
+    background: linear-gradient(to left, #03546b 0%, #0594bc 60%, #3ad4ff 100%);
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+
+.bear {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+
+.sideboxContent {
+    padding: 10px 14px;
+    border-radius: 0 0 6px 6px;
+    background-color: #98e2fe;
+}
+
+.ironmamBanner {
+    width: 100%;
+}
+
+.sideboxItem {
+    width: 122px;
+    padding: 4px;
+    background-color: #e1f6ff;
+    color: #0e4c63;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+.sideboxText {
+    width: 100%;
+    text-align: center;
+}
+
+.sideboxNumber {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.videoBox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.videoBoxHeader {
+    background-color: #00a0e9;
+    padding: 6px 6px 6px 14px;
+    color: #fff;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itplusLogo {
+    width: 50px;
+    margin-right: 4px;
+}
+
+.videoBoxContent {
+    background-color: #fff;
+    padding: 8px 14px 4px;
+}
+
+.videoImg {
+    width: 100px;
+    height: 60px;
+}
+
+.videoText {
+    flex-direction: column;
+    margin-bottom: 2px;
+} 
+
+.videoTitle {
+    color: #00a0e9;
+    font-size: 14px;
+}
+
+.hr {
+    color: #ddd;
+    margin: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+/* .hotTagBox {
+
+} */
+
+.hotTagBoxHeader {
+    padding: 6px 6px 6px 14px;
+    background-color: #00a0e9;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotTagContent {
+    background-color: #fff;
+    padding: 8px 14px 4px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    color: #6B8793;
+    background-color: #E8EFF2;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 14px;
+    margin: 0 8px 12px 0;
+}
+
+.pages {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 0;
+    border: 1px solid #ddd;
+
+}
+
+.pageBotton {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px 14px;
+    margin: 0 4px;
+}
+
+.up {
+    color: #777;
+}
+
+.down {
+    color: #37c0ff;
+}
+
+

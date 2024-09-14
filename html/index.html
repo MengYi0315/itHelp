@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class="header flex">
+            <div class="flex">
+                <div class="logo flex">
+                    <img src="../assets/logo.svg">
+                </div>
+                <div>
+                    <ul class="flex nav">
+                        <li>技術問答</li>
+                        <li>技術文章</li>
+                        <li>iT徵才</li>
+                        <li>Tag</li>
+                        <li>聊天室</li>
+                        <li>2024鐵人賽</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex rightHeaderDiv">
+                <i class="fa-solid fa-magnifying-glass search-logo"></i>
+                <div class="loginAndRegister">
+                    登入\註冊
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex" style="justify-content: center;">
+            <div class="main flex">
+                <div class="leftMainDiv">
+                    <div class="announcementDiv flex">
+                        <div class="announcement">公告</div>
+                        <div class="announcementText">【鐵人熱血，創造光榮！】把握8/1-9/15報名參賽</div>
+                    </div>
+                    <div class="TechnicalQA flex">
+                        <div class="flex" style="align-items: flex-end;">
+                            <div class="QATitle">技術問答</div>
+                            <div class="rss flex">
+                                <i class="fa-solid fa-rss" style="line-height: 22px;margin-right: 5px;"></i>
+                                RSS
+                            </div>
+                        </div>
+                        <div class="QANav flex">
+                            <li class="focusTab">最新</li>
+                            <li class="tab">熱門</li>
+                            <li class="tab">已解決</li>
+                        </div>
+                    </div>
+                    <div id="QAList" class="QAList flex">
+                        <!-- <div class="QAItem flex">
+                            <div class="col like flex">
+                                <div class="number">0</div>
+                                <div>Like</div>
+                            </div>
+                            <div class="col answer flex">
+                                <div class="number">0</div>
+                                <div>回答</div>
+                            </div>
+                            <div class="col scan flex">
+                                <div class="number">45</div>
+                                <div>瀏覽</div>
+                            </div>
+                            <div class="flex" style="flex-direction: column;">
+                                <div class="title">
+                                    python抓網站資料的問題
+                                </div>
+                                <div class="flex" style="flex-wrap: wrap;">
+                                    <div class="tag">pd.read_html</div>
+                                    <div class="dateAndMemberDiv">
+                                        <span>2024-09-13</span>
+                                        <span> ‧ 由</span>
+                                        <span class="name">Kevin_0</span>
+                                        <span> 提問</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="pages flex">
+                        <div class="pageBotton up">
+                            上一頁
+                        </div>
+                        <div class="pageBotton down">
+                            下一頁
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rightMainDiv">
+                    <div class="sidebox">
+                        <div class="sideboxHeader">
+                            <img src="../assets//ironman9thsidebar.png" class="bear">
+                            　　　iThome鐵人賽
+                            <i class="fa-solid fa-circle-chevron-right" style="margin-left: 20px;"></i>
+                        </div>
+                        <div class="sideboxContent">
+                            <img src="../assets/ironman_signup_banner.jpg" class="ironmamBanner">
+                            <div class="flex" style="flex-wrap: wrap; width: 100%;">
+                                <div class="sideboxItem" style="margin-bottom: 8px;">
+                                    <div class="sideboxText">參賽組數</div>
+                                    <div style="width: 100%; text-align: center;">
+                                        <span class="sideboxNumber">758</span>
+                                        <span>組</span>
+                                    </div>
+                                </div>
+                                <div class="sideboxItem" style="margin: 0 0 8px 12px;">
+                                    <div class="sideboxText">團體組數</div>
+                                    <div style="width: 100%; text-align: center;">
+                                        <span class="sideboxNumber">32</span>
+                                        <span>組</span>
+                                    </div>
+                                </div>   
+                                <div class="sideboxItem">
+                                    <div class="sideboxText">累積文章數</div>
+                                    <div style="width: 100%; text-align: center;">
+                                        <span class="sideboxNumber">5089</span>
+                                        <span>組</span>
+                                    </div>
+                                </div> 
+                                <div class="sideboxItem" style="margin-left: 12px;">
+                                    <div class="sideboxText">最後報名日</div>
+                                    <div style="width: 100%; text-align: center;">
+                                        <span class="sideboxNumber">9/15</span>
+                                        <span>組</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videoBox">
+                        <div class="videoBoxHeader flex">
+                            <div class="flex" style="align-items: center; font-weight: bold;">
+                                <img src="../assets/itplus_logo_white_word.svg" class="itplusLogo">
+                                看影片追技術
+                            </div>
+                            <div style="letter-spacing: 1px; font-size: 12px;">
+                                看更多
+                                <i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                        <div class="videoBoxContent">
+                            <div class="flex">
+                                <div style="margin: 0px 5px 2px 0;">
+                                    <img src="../assets/video1.jpg" class="videoImg">
+                                </div>
+                                <div class="flex videoText">
+                                    <div class="videoTitle">
+                                        深化內在潛力，釋放成長動能
+                                    </div>
+                                    <div style="color: #888888; font-size: 12px; width: 160px; margin-top: 10px;">
+                                        IT EXPLAINED | 24 分
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="hr">
+                            </div>
+                            <div class="flex">
+                                <div style="margin: 0px 5px 2px 0;">
+                                    <img src="../assets/video2.jpg" class="videoImg">
+                                </div>
+                                <div class="flex videoText">
+                                    <div class="videoTitle">
+                                        端點零信任 守護企業資料
+                                    </div>
+                                    <div style="color: #888888; font-size: 12px; width: 160px; margin-top: 10px;">
+                                        CYBERSEC NOW | 26 分
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="hr">
+                            </div>
+                            <div class="flex">
+                                <div style="margin: 0px 5px 2px 0;">
+                                    <img src="../assets/video3.jpg" class="videoImg">
+                                </div>
+                                <div class="flex videoText">
+                                    <div class="videoTitle">
+                                        潛入核心：惡意程式與驅動程式的狼狽為奸
+                                    </div>
+                                    <div style="color: #888888; font-size: 12px; width: 160px; margin-top: 10px;">
+                                        臺灣資安大會 | 23 分
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="hr">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hotTagBox">
+                        <div class="hotTagBoxHeader flex">
+                            <div class="flex" style="align-items: center; font-weight: bold;">
+                                熱門tag
+                            </div>
+                            <div style="letter-spacing: 1px; font-size: 12px;">
+                                看更多
+                                <i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                        <div id="hotTagContent" class="hotTagContent flex">
+                            <!-- <div class="tag">
+                                15th鐵人賽
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="../js/index.js"></script>
+    </body>
+
+</html>
+
+
